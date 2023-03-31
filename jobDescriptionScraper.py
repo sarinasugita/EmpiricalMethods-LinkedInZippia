@@ -19,14 +19,20 @@ exception_count = 1
 exception2_count = 1
 for i in range(len(job_details)):
     link = job_details.iloc[i, 3]
-
+    time.sleep(2)
     driver.get(link)
 
     try:
         button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "show-more-less-html__button")))
         button.click()
     except:
-        print("exception")
+        time.sleep(10)
+        driver.get(link)
+        try:
+            button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "show-more-less-html__button")))
+            button.click()
+        except:
+            print("exception")
     try:
         description = driver.find_element(By.CLASS_NAME, "description__text").get_attribute("innerText")
     except:
@@ -50,7 +56,6 @@ for i in range(len(job_details)):
     except:
         job_function0 = ""
     job_functions.append(job_function0)
-
 
 # Store job details in a dictionary
 job_dict = {"Job Function": job_functions,
