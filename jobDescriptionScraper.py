@@ -19,7 +19,7 @@ exception_count = 1
 exception2_count = 1
 for i in range(len(job_details)):
     link = job_details.iloc[i, 3]
-    time.sleep(2)
+    time.sleep(4)
     driver.get(link)
 
     try:
