@@ -1,6 +1,8 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 
 url = "https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs&position=1&pageNum=0"
@@ -9,13 +11,23 @@ driver.get(url)
 
 # Scroll down to load more job postings
 scroll_pause_time = 2
+see_more_limit = 10
+see_more_count = 0
 scroll_height = driver.execute_script("return document.body.scrollHeight")
 while True:
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(scroll_pause_time)
     new_height = driver.execute_script("return document.body.scrollHeight")
-    if new_height == scroll_height:
+    if new_height == scroll_height and see_more_count == see_more_limit:
         break
+    if new_height == scroll_height:
+        try:
+            button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "infinite-scroller__show-more-button")))
+            button.click()
+            new_height = driver.execute_script("return document.body.scrollHeight")
+        except:
+            break
+        see_more_count += 1
     scroll_height = new_height
 
 # Extract job links and titles
