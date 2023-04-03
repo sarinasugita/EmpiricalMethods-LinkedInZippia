@@ -1,10 +1,12 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 import pandas as pd
 
 url = "https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs&position=1&pageNum=0"
-driver = webdriver.Chrome('/Applications/chromedriver_mac64/chromedriver')
+s = Service('C:/Users/fucky/Downloads/chromedriver_win32/chromedriver.exe')
+driver = webdriver.Chrome(service = s)
 driver.get(url)
 
 # Scroll down to load more job postings
