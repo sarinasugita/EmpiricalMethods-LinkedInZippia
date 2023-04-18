@@ -1,0 +1,601 @@
+Level,Female,Male
+Associate,0,0.14
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.12,0
+Associate,0.35,0
+Associate,0,0.2
+Associate,0,0
+Associate,0,0
+Associate,0.17,0.17
+Associate,0,0
+Associate,0,0.56
+Associate,0,0
+Associate,0,0.14
+Associate,0,0.13
+Associate,0,0
+Associate,0,0
+Associate,0.86,0.29
+Associate,0,0
+Associate,0.34,0
+Associate,0,0
+Associate,0,0.18
+Associate,0,0
+Associate,0,0
+Associate,0.17,0
+Associate,0.48,0.48
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0.41
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0.41
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.34,0.34
+Associate,0.6,0.6
+Associate,0.18,0.35
+Associate,0,0
+Associate,0,0
+Associate,0,1.41
+Associate,0,0
+Associate,0,0
+Associate,0,0.62
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.24,0.24
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.3,0
+Associate,0,0.11
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0.15
+Associate,0.16,0.16
+Associate,0,0.41
+Associate,0,0
+Associate,0.12,0
+Associate,0,0.16
+Associate,0.45,0
+Associate,0,0
+Associate,0,0
+Associate,0.08,0.08
+Associate,0,0
+Associate,0,0.23
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.2,0
+Associate,0,0
+Associate,0,0.32
+Associate,0,0
+Associate,0,0
+Associate,0,0.16
+Associate,0,0
+Associate,0.46,0.46
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0.18,0.18
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0
+Associate,0,0.28
+Director,0,0
+Director,0,0.53
+Director,0.58,0.39
+Director,0,0.09
+Director,0,0
+Director,0,0.27
+Director,0,0.35
+Director,0,0
+Director,0,0
+Director,0,0.08
+Director,0,0.19
+Director,0,0
+Director,0,0.27
+Director,0,0.08
+Director,0.08,0.17
+Director,0,0
+Director,0,0.36
+Director,0,0
+Director,0.12,1.05
+Director,0.33,0.17
+Director,0,0
+Director,0,0
+Director,0,0.16
+Director,0,0
+Director,0.15,0.15
+Director,0.14,0
+Director,0,0.21
+Director,0,0
+Director,0.15,0
+Director,0,0.12
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0,0.7
+Director,0,0
+Director,0.2,0.2
+Director,0,0
+Director,0.59,0.71
+Director,0.15,0.15
+Director,0.09,0.17
+Director,0,0.14
+Director,0,0.29
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0.09,0.09
+Director,0.09,0.09
+Director,0,1.59
+Director,0,0.19
+Director,0.19,0
+Director,0,0
+Director,0,0.21
+Director,0.51,0.51
+Director,0,0.12
+Director,0,0
+Director,0,0
+Director,0.13,0.13
+Director,0,0
+Director,0,0
+Director,0.24,0.24
+Director,0,0.22
+Director,0,0.21
+Director,0,0
+Director,0,0
+Director,0,0.13
+Director,0.34,0.17
+Director,0,1.61
+Director,0.7,0
+Director,0,0.15
+Director,0.16,0.16
+Director,0,0.11
+Director,0,0.19
+Director,0.18,0.18
+Director,0,0
+Director,0,0
+Director,0,0.18
+Director,0,0
+Director,0,0.08
+Director,0,0
+Director,0,0
+Director,0.15,0.15
+Director,0,0
+Director,0.54,0.81
+Director,0,0.36
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0,0.13
+Director,0,0
+Director,0.11,0.21
+Director,0.21,0.14
+Director,0.63,0.32
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0,0
+Director,0.16,0.16
+Director,0,0
+Director,0.12,0.12
+Entry level,0,0
+Entry level,0.33,0.33
+Entry level,0,0
+Entry level,0,0
+Entry level,0.15,0.05
+Entry level,0.16,0.16
+Entry level,0,0
+Entry level,0,0
+Entry level,0.14,0.14
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.18
+Entry level,0.24,0.16
+Entry level,0.13,0.13
+Entry level,0.16,0.16
+Entry level,0,0.15
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.18
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.91
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.16
+Entry level,0,0.21
+Entry level,0,0
+Entry level,0.18,0
+Entry level,0.13,0.13
+Entry level,0,0
+Entry level,0,0.16
+Entry level,0,0
+Entry level,0,0.32
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0.3,0
+Entry level,0.16,0.16
+Entry level,0,0.18
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.37
+Entry level,0,0.26
+Entry level,0.15,0.15
+Entry level,0,0
+Entry level,0.16,0
+Entry level,0,0.19
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0.13,0.13
+Entry level,0,0
+Entry level,0.13,0.13
+Entry level,0,0
+Entry level,0,0
+Entry level,0.15,0.15
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.99
+Entry level,0.88,0.88
+Entry level,0.43,0.43
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0
+Entry level,0,0.16
+Entry level,0,0.31
+Entry level,0,0
+Entry level,0,0.25
+Entry level,0,0
+Entry level,0,0
+Executive,0,0.78
+Executive,0,0.15
+Executive,0,0.18
+Executive,0,0.18
+Executive,0,0.18
+Executive,0,0
+Executive,0,0.27
+Executive,0,0.18
+Executive,0,0
+Executive,0,0.19
+Executive,0,0.29
+Executive,0,0.19
+Executive,0,0.8
+Executive,0,0
+Executive,0,0.28
+Executive,0,0.1
+Executive,0,0
+Executive,0,0
+Executive,0,1.3
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0.23
+Executive,0,0
+Executive,0,0
+Executive,0,0.15
+Executive,0,0
+Executive,0,0.11
+Executive,0,0
+Executive,0,0.09
+Executive,0,0.08
+Executive,0,0.13
+Executive,0,0.11
+Executive,0.14,0.29
+Executive,0.09,0.09
+Executive,0,0
+Executive,0,0.21
+Executive,0,0.19
+Executive,0,0
+Executive,0.11,0.11
+Executive,0,0
+Executive,0,0.11
+Executive,0.77,0.88
+Executive,0,0.12
+Executive,0,0
+Executive,0,0.16
+Executive,0,0.11
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0.23,0.39
+Executive,0,0
+Executive,0,0
+Executive,0.37,0.19
+Executive,0,0.17
+Executive,0,0.09
+Executive,0.13,0.13
+Executive,0,0.32
+Executive,0.13,0.25
+Executive,0,0
+Executive,0.15,0.15
+Executive,0,0
+Executive,0.13,0.13
+Executive,0,0
+Executive,0,0.32
+Executive,0,0.17
+Executive,0.28,0.28
+Executive,0,0.27
+Executive,0,0.12
+Executive,0,0
+Executive,0,0.39
+Executive,0,0.11
+Executive,0,0
+Executive,0,0.32
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0.34,0.34
+Executive,0,0.14
+Executive,0,2.11
+Executive,0,0
+Executive,0,0
+Executive,0.12,0
+Executive,0.69,0.77
+Executive,0.16,0
+Executive,0,0
+Executive,0.54,0
+Executive,0,0
+Executive,0,0.32
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0
+Executive,0,0.32
+Executive,0,0.17
+Executive,0,0
+Internship,0,0
+Internship,0,0.14
+Internship,0,0.15
+Internship,0,0.2
+Internship,0,0.28
+Internship,0.26,0
+Internship,0,0
+Internship,0.2,0.2
+Internship,0.43,0.29
+Internship,0,0.43
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0.19
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0.24,0.12
+Internship,0,0
+Internship,0.43,0.29
+Internship,0.16,0.16
+Internship,0,0.11
+Internship,0,0
+Internship,0,0.17
+Internship,0,0
+Internship,0,0
+Internship,0,0.08
+Internship,0,0
+Internship,0,0
+Internship,1.28,0
+Internship,0.25,0.88
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0.16,0.16
+Internship,0,0
+Internship,0.38,0.38
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0.53,0
+Internship,0,0
+Internship,0,0.1
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0.38,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0.27,0
+Internship,0.13,0.13
+Internship,0.17,0
+Internship,0,0
+Internship,0,0
+Internship,0,0.6
+Internship,0.22,0.22
+Internship,0,0
+Internship,0,0.16
+Internship,0,0
+Internship,0,0.11
+Internship,0,0
+Internship,0,0.1
+Internship,0,0
+Internship,0,0
+Internship,0.54,0.11
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0
+Internship,0,0.56
+Internship,0.21,0
+Internship,0,0
+Mid-Senior level,0,0.13
+Mid-Senior level,0,0.14
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0.14,1.1
+Mid-Senior level,0.13,0
+Mid-Senior level,0,0.19
+Mid-Senior level,0,0.17
+Mid-Senior level,1.2,1.2
+Mid-Senior level,0,0.26
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.17
+Mid-Senior level,0,0
+Mid-Senior level,0,0.13
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0.18,0.18
+Mid-Senior level,0.2,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.16
+Mid-Senior level,0,0.37
+Mid-Senior level,0,0.13
+Mid-Senior level,0,0.24
+Mid-Senior level,0,0.06
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.18
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0.18,0.27
+Mid-Senior level,0,0
+Mid-Senior level,0,0.11
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0.09,0.09
+Mid-Senior level,0,0.11
+Mid-Senior level,0,0.06
+Mid-Senior level,0,0
+Mid-Senior level,0.19,0.19
+Mid-Senior level,0,0.12
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.27
+Mid-Senior level,0.11,0.22
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.51
+Mid-Senior level,0,0.09
+Mid-Senior level,0,0.07
+Mid-Senior level,0,0.43
+Mid-Senior level,0.11,0.21
+Mid-Senior level,0.11,0.22
+Mid-Senior level,0.11,0.22
+Mid-Senior level,0.21,0.21
+Mid-Senior level,0,0
+Mid-Senior level,0,0.14
+Mid-Senior level,0,1.49
+Mid-Senior level,0,0.1
+Mid-Senior level,0,0.14
+Mid-Senior level,0.26,0.77
+Mid-Senior level,0,0
+Mid-Senior level,0,0.36
+Mid-Senior level,0,0.19
+Mid-Senior level,0,0.13
+Mid-Senior level,0,0.44
+Mid-Senior level,0.18,0
+Mid-Senior level,0,0
+Mid-Senior level,0.12,0.23
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.14
+Mid-Senior level,0,0.14
+Mid-Senior level,0,0
+Mid-Senior level,0.37,0.37
+Mid-Senior level,0,0
+Mid-Senior level,0.21,0
+Mid-Senior level,0,0
+Mid-Senior level,0.11,0.21
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0.64,0.43
+Mid-Senior level,0,0
+Mid-Senior level,0,0
+Mid-Senior level,0,0.12
+Mid-Senior level,0,0
+Mid-Senior level,0,0
