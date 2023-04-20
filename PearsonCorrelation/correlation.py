@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from pandas import *
 import os
 from scipy.stats import pearsonr
+import statistics
+
 
 dict_industries = {}
 
@@ -60,7 +62,7 @@ for f in files:
         continue
     full_name = path + '/' + f
     data = read_csv(full_name)
-    female = data['Executives Who Are Women'].tolist()
+    female = data['Employees Who Are Women'].tolist()
     female = [i.strip('%') for i in female]
     c = female.count('-')
     for i in range(c):
@@ -100,14 +102,14 @@ data2 = []
 
 count = 0
 for industry in dict_industries:
-    if industry == 'Finance':
-        continue
-    if industry == 'Technology':
-        continue
+   # if industry == 'Finance':
+        #continue
+    #if industry == 'Technology':
+        #continue
    # if industry == 'Healthcare':
        # continue
-    if industry == 'Retail':
-        continue
+    #if industry == 'Retail':
+        #continue
     current_industry = dict_industries[industry]
     current_women_LIWC = current_industry[0][2] / current_industry[0][0]
     current_women_Zippia =  current_industry[1][2]
@@ -119,6 +121,16 @@ for industry in dict_industries:
                alpha=0.3, edgecolors='none')
 
     count += 1
+
+a, b = np.polyfit(data1, data2, 1)
+
+#slope, intercept = statistics.linear_regression(data1, data2, proportional=True)
+
+'''
+data1 = data1[:,np.newaxis]
+a, _, _, _ = np.linalg.lstsq(data1, data2)
+'''
+#plt.plot(data1, slope*np.float64(data1), color='steelblue', linestyle='-', linewidth=2)
 
 ax.legend()
 ax.grid(True)
