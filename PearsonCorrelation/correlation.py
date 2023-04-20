@@ -69,9 +69,9 @@ for f in files:
         female.remove('-')
 
     female = np.array(np.uint8(female))
-    female = female / 100
+    #female = female / 100
 
-    male = np.full(shape=np.shape(female), fill_value=1)
+    male = np.full(shape=np.shape(female), fill_value=100)
     male = male - female
 
     female_mean = np.mean(female)
@@ -156,20 +156,23 @@ corr = pearsonr(data1, data2)
 print(corr)
 #print('Pearsons correlation: %.3f' % corr)
 
-
+color = ['tab:blue', 'tab:orange', 'tab:green','tab:red', 'tab:purple', 'tab:brown',
+              'tab:pink', 'tab:gray', 'tab:olive', 'tab:cyan']
 
 ind = np.arange(len(dict_industries))  # the x locations for the groups
 width = 0.35  # the width of the bars
 
 fig, ax = plt.subplots()
 rects1 = ax.bar(ind - width/2, male_means_zip, width, yerr=male_stds_zip,
-                label='Male')
+                label='Male', color='tab:blue')
 rects2 = ax.bar(ind + width/2, female_means_zip, width, yerr=female_stds_zip,
-                label='Female')
+                label='Female', color='tab:pink')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('Scores')
-ax.set_title('Scores by group and gender')
+ax.set_ylabel('Percentage of Employees (%)')
+ax.set_xlabel('Industries')
+ax.set_title('Percentage of Male and Female Employees per Industry (From Zippia Data)')
+ax.set_ylim([0, 100])
 ax.set_xticks(ind)
 ax.set_xticklabels((dict_industries.keys()))
 ax.legend()

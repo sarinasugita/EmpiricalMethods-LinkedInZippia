@@ -2,9 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pandas import *
 import os
+from scipy import stats
 
-path = 'LIWC_Clean_Results/Seniority'
+path = 'LIWC_Clean_Results/Industry'
 
+max = 0
+max_in = 'None'
 files = os.listdir(path)
 female_means = []
 female_stds = []
@@ -20,20 +23,28 @@ for f in files:
         continue
    # f = 'Government_Cleaned.csv'
     full_name = path + '/' + f
-    print(f)
+    #print(f)
     data = read_csv(full_name)
     female = data['female'].tolist()
-    print(female)
+    #print(female)
     female = np.array(female)
-    print(female)
-    print(np.shape(female))
-    print(np.shape(full_female))
+    #print(female)
+   # print(np.shape(female))
+    #print(np.shape(full_female))
     female = female[~np.isnan(female)]
+    max_temp = np.max(female)
+    if max_temp > max:
+        max = max_temp
+        max_industry = f
     full_female = np.concatenate([full_female, female])
 
     male = data['male'].tolist()
     male = np.array(male)
     male = male[~np.isnan(male)]
+    max_temp = np.max(male)
+   # if max_temp > max:
+       # max = max_temp
+        #max_industry = f
     full_male = np.concatenate([full_male, male])
     #full_male = full_male + male
 
@@ -51,11 +62,19 @@ for f in files:
     female_stds.append(female_std)
     male_stds.append(male_std)
 
+    print(stats.ttest_rel(male, female), f)
+
+print(max)
+print(max_industry)
+
+print(sorted(full_female))
+
+
 
 #male_means = np.mean(full_male)
-print(len(full_male))
-print(full_male)
-print(len(full_female))
+#print(len(full_male))
+#print(full_male)
+#print(len(full_female))
 #female_means = np.mean(full_female)
 #male_stds = np.std(full_male)
 #male_stds = np.std(full_male, ddof=1) / np.sqrt(np.size(full_male))
@@ -65,13 +84,14 @@ width = 0.35  # the width of the bars
 
 fig, ax = plt.subplots()
 rects1 = ax.bar(ind - width/2, male_means, width, yerr=male_stds,
-                label='Male')
+                label='Male', color='tab:blue')
 rects2 = ax.bar(ind + width/2, female_means, width, yerr=female_stds,
-                label='Female')
+                label='Female', color='tab:pink')
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
-ax.set_ylabel('Scores')
-ax.set_title('Scores by group and gender')
+ax.set_ylabel('Average LIWC Scores (Percentage of Total Words in Job Posting)')
+ax.set_xlabel('Seniority Level')
+ax.set_title('Average Male and Female LIWC Scores by Seniority Level Job Postings (From LinkedIn)')
 ax.set_xticks(ind)
 ax.set_xticklabels((file_names))
 ax.legend()
